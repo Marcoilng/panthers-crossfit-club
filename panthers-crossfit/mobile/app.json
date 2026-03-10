@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Panthers Crossfit Club",
+    "slug": "panthers-crossfit-club",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": false,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#E6F4FE"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.pantherscrossfit.club"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundColor": "#E6F4FE"
+      },
+      "package": "com.pantherscrossfit.club"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow Panthers Crossfit Club to access your camera to scan QR codes."
+        }
+      ]
+    ]
+  }
+}
