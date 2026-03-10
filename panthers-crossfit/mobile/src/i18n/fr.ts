@@ -1,4 +1,4 @@
-export default {
+const fr = {
   // Common
   app_name: 'Panthers CrossFit Club',
   loading: 'Chargement...',
@@ -71,7 +71,6 @@ export default {
   // Member Status
   active: 'Actif',
   expired: 'Expiré',
-  expiring_soon: 'Expire Bientôt',
   suspended: 'Suspendu',
   days_remaining: 'jours restants',
   days_left: 'jours restants',
@@ -146,4 +145,6 @@ export default {
   server_error: 'Erreur serveur. Veuillez réessayer plus tard.',
   unauthorized: 'Non autorisé. Veuillez vous reconnecter.',
 };
+
+export default fr;
 
